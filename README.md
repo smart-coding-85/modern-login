@@ -1,6 +1,6 @@
-# Login & Register UI
+# Modern Login & Register UI
 
-A beautiful, modern authentication UI built with React, TypeScript, and Tailwind CSS. Features stunning visual effects, dark mode support, and responsive design.
+A clean, modern authentication UI built with React, TypeScript, and Tailwind CSS. Features beautiful purple gradient cloud shapes and responsive design.
 
 ![React](https://img.shields.io/badge/React-19.1.0-61DAFB?logo=react)
 ![TypeScript](https://img.shields.io/badge/TypeScript-5.8-3178C6?logo=typescript)
@@ -9,14 +9,14 @@ A beautiful, modern authentication UI built with React, TypeScript, and Tailwind
 
 ## ✨ Features
 
-- **Modern Login & Register Forms** - Clean, professional authentication pages
-- **Dark/Light Theme Toggle** - Seamless theme switching with system preference support
-- **Social Login Buttons** - Apple, Google, and GitHub OAuth integration ready
-- **Animated Visual Panel** - Floating shapes, spinning rings, and pulsing effects
-- **Testimonials Carousel** - Auto-rotating customer testimonials
-- **Responsive Design** - Works perfectly on desktop and mobile devices
-- **Form Validation** - Built-in input validation with visual feedback
+- **Modern Login Form** - Clean email and password authentication
+- **Register Form** - Full registration with name, email, password confirmation
+- **Decorative Cloud Shapes** - Purple gradient SVG clouds with white center panel
+- **Responsive Design** - Mobile-first design, decorative panel hidden on small screens
 - **Password Visibility Toggle** - Show/hide password functionality
+- **Form Validation** - Built-in required field validation
+- **Loading States** - Smooth loading indicators on form submission
+- **Smooth Transitions** - Hover effects and micro-interactions
 
 ## 🛠️ Tech Stack
 
@@ -26,21 +26,20 @@ A beautiful, modern authentication UI built with React, TypeScript, and Tailwind
 - **Build Tool:** Vite
 - **Routing:** React Router v7
 - **Icons:** Lucide React
-- **HTTP Client:** Axios
 
 ## 🚀 Getting Started
 
 ### Prerequisites
 
-- Node.js 18+ 
+- Node.js 18+
 - npm or yarn
 
 ### Installation
 
 1. Clone the repository:
 ```bash
-git clone https://github.com/smart-coding-85/login-image.git
-cd login-image
+git clone <your-repo-url>
+cd modern-login
 ```
 
 2. Install dependencies:
@@ -71,36 +70,24 @@ npm run dev
 ```
 src/
 ├── components/
-│   └── ui/
-│       ├── button.tsx        # Button component
-│       ├── card.tsx          # Card component
-│       ├── field.tsx         # Form field components
-│       ├── input.tsx         # Input component
-│       ├── login-form.tsx    # Login form with visual panel
-│       ├── register-form.tsx # Register form with visual panel
-│       └── theme-toggle.tsx  # Dark/Light mode toggle
-├── hooks/
-│   └── use-theme.ts          # Theme management hook
+│   └── ui/           # Reusable UI components
 ├── lib/
-│   └── utils.ts              # Utility functions (cn)
+│   └── utils.ts      # Utility functions (cn)
 ├── page/
-│   ├── login.tsx             # Login page
-│   └── register.tsx          # Register page
-├── utils/
-│   ├── constants.ts          # App constants
-│   └── theme.ts              # Theme utilities
-├── App.tsx                   # Main app with routing
-├── main.tsx                  # Entry point
-└── index.css                 # Global styles
+│   ├── login.tsx     # Login page
+│   └── register.tsx  # Register page
+├── App.tsx           # Main app with routing
+├── main.tsx          # Entry point
+└── index.css         # Global styles
 ```
 
 ## 🎨 UI Highlights
 
-- **Glass Morphism Effects** - Frosted glass cards with backdrop blur
-- **Gradient Backgrounds** - Beautiful gradient overlays
-- **Micro-interactions** - Hover effects, scale transitions, and smooth animations
-- **Custom Checkboxes** - Styled form elements
-- **Stats Cards** - Displaying uptime and encryption info
+- **Purple Gradient Clouds** - Decorative SVG shapes with linear gradients
+- **Clean White Panels** - Centered content area with gradient text
+- **Colored Input Icons** - Orange, purple, emerald, and blue icon badges
+- **Rounded Design** - Soft corners throughout (rounded-xl, rounded-3xl)
+- **Shadow Effects** - Subtle shadows for depth and elevation
 
 ## 📄 License
 
